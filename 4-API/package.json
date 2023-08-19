@@ -1,0 +1,15 @@
+{
+  "name": "4---api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "us-0003-api de cupons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
