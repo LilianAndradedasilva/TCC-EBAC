@@ -1,0 +1,45 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1692404425626,703,Informar Usuario-78,200,OK,Acessar minha conta 2-1,text,true,,25470,1456,1,1,http://lojaebac.ebaconline.art.br/minha-conta/,240,0,31
+1692404425626,240,Informar Usuario-78-0,302,Found,Acessar minha conta 2-1,text,true,,994,820,1,1,http://lojaebac.ebaconline.art.br/minha-conta/,240,0,31
+1692404425867,462,Informar Usuario-78-1,200,OK,Acessar minha conta 2-1,text,true,,24476,636,1,1,http://lojaebac.ebaconline.art.br/minha-conta/,451,0,0
+1692404425625,703,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-1,,true,,25470,1456,1,1,null,240,2,31
+1692404426333,501,Informar Usuario-78,200,OK,Acessar minha conta 2-1,text,true,,25470,1456,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,177,0,0
+1692404426333,177,Informar Usuario-78-0,302,Found,Acessar minha conta 2-1,text,true,,993,820,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,177,0,0
+1692404426510,324,Informar Usuario-78-1,200,OK,Acessar minha conta 2-1,text,true,,24477,636,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,313,0,0
+1692404426333,501,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-1,,true,,25470,1456,2,2,null,177,0,0
+1692404426625,734,Informar Usuario-78,200,OK,Acessar minha conta 2-2,text,true,,25471,1456,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,321,0,39
+1692404426625,321,Informar Usuario-78-0,302,Found,Acessar minha conta 2-2,text,true,,994,820,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,321,0,39
+1692404426946,413,Informar Usuario-78-1,200,OK,Acessar minha conta 2-2,text,true,,24477,636,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,401,0,0
+1692404426625,734,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-2,,true,,25471,1456,2,2,null,321,1,39
+1692404426835,664,Informar Usuario-78,200,OK,Acessar minha conta 2-1,text,true,,25470,1456,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,258,0,0
+1692404426835,258,Informar Usuario-78-0,302,Found,Acessar minha conta 2-1,text,true,,993,820,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,258,0,0
+1692404427093,406,Informar Usuario-78-1,200,OK,Acessar minha conta 2-1,text,true,,24477,636,2,2,http://lojaebac.ebaconline.art.br/minha-conta/,396,0,0
+1692404426835,664,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-1,,true,,25470,1456,2,2,null,258,0,0
+1692404427364,836,Informar Usuario-78,200,OK,Acessar minha conta 2-2,text,true,,25471,1456,3,3,http://lojaebac.ebaconline.art.br/minha-conta/,234,0,0
+1692404427364,234,Informar Usuario-78-0,302,Found,Acessar minha conta 2-2,text,true,,993,820,3,3,http://lojaebac.ebaconline.art.br/minha-conta/,234,0,0
+1692404427598,602,Informar Usuario-78-1,200,OK,Acessar minha conta 2-2,text,true,,24478,636,3,3,http://lojaebac.ebaconline.art.br/minha-conta/,593,0,0
+1692404427364,836,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-2,,true,,25471,1456,3,3,null,234,0,0
+1692404427501,769,Informar Usuario-78,200,OK,Acessar minha conta 2-1,text,true,,25471,1456,3,3,http://lojaebac.ebaconline.art.br/minha-conta/,266,0,0
+1692404427501,266,Informar Usuario-78-0,302,Found,Acessar minha conta 2-1,text,true,,993,820,3,3,http://lojaebac.ebaconline.art.br/minha-conta/,266,0,0
+1692404427767,503,Informar Usuario-78-1,200,OK,Acessar minha conta 2-1,text,true,,24478,636,3,3,http://lojaebac.ebaconline.art.br/minha-conta/,493,0,0
+1692404427501,769,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-1,,true,,25471,1456,3,3,null,266,0,0
+1692404427624,1019,Informar Usuario-78,200,OK,Acessar minha conta 2-3,text,true,,25472,1456,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,429,0,9
+1692404427624,429,Informar Usuario-78-0,302,Found,Acessar minha conta 2-3,text,true,,994,820,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,429,0,9
+1692404428053,590,Informar Usuario-78-1,200,OK,Acessar minha conta 2-3,text,true,,24478,636,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,580,0,0
+1692404427624,1019,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-3,,true,,25472,1456,4,4,null,429,0,9
+1692404428272,1085,Informar Usuario-78,200,OK,Acessar minha conta 2-1,text,true,,25470,1456,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,288,0,0
+1692404428272,288,Informar Usuario-78-0,302,Found,Acessar minha conta 2-1,text,true,,993,820,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,288,0,0
+1692404428561,796,Informar Usuario-78-1,200,OK,Acessar minha conta 2-1,text,true,,24477,636,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,785,0,0
+1692404428272,1085,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-1,,true,,25470,1456,4,4,null,288,0,0
+1692404428202,1196,Informar Usuario-78,200,OK,Acessar minha conta 2-2,text,true,,25471,1456,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,431,0,0
+1692404428202,431,Informar Usuario-78-0,302,Found,Acessar minha conta 2-2,text,true,,993,820,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,431,0,0
+1692404428633,765,Informar Usuario-78-1,200,OK,Acessar minha conta 2-2,text,true,,24478,636,4,4,http://lojaebac.ebaconline.art.br/minha-conta/,756,0,0
+1692404428201,1196,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-2,,true,,25471,1456,4,4,null,431,2,0
+1692404428647,1185,Informar Usuario-78,200,OK,Acessar minha conta 2-3,text,true,,25470,1456,5,5,http://lojaebac.ebaconline.art.br/minha-conta/,521,0,0
+1692404428647,521,Informar Usuario-78-0,302,Found,Acessar minha conta 2-3,text,true,,993,820,5,5,http://lojaebac.ebaconline.art.br/minha-conta/,521,0,0
+1692404429168,664,Informar Usuario-78-1,200,OK,Acessar minha conta 2-3,text,true,,24477,636,5,5,http://lojaebac.ebaconline.art.br/minha-conta/,653,0,0
+1692404428647,1185,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-3,,true,,25470,1456,5,5,null,521,1,0
+1692404428624,1232,Informar Usuario-78,200,OK,Acessar minha conta 2-4,text,true,,25473,1456,5,5,http://lojaebac.ebaconline.art.br/minha-conta/,498,0,18
+1692404428624,498,Informar Usuario-78-0,302,Found,Acessar minha conta 2-4,text,true,,994,820,5,5,http://lojaebac.ebaconline.art.br/minha-conta/,498,0,18
+1692404429123,733,Informar Usuario-78-1,200,OK,Acessar minha conta 2-4,text,true,,24479,636,5,5,http://lojaebac.ebaconline.art.br/minha-conta/,726,0,0
+1692404428623,1232,Informar Usuario,200,"Number of samples in transaction : 1, number of failing samples : 0",Acessar minha conta 2-4,,true,,25473,1456,5,5,null,498,1,18

@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clonar o repositorio') {
+            steps {
+                git branch: 'main', url: 'https://github.com/LilianAndradedasilva/Exercicio-modulo-12.git'
+            }
+        }
+        stage('Instalar dependencias') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('Executar os testes') {
+            steps {
+                sh 'NO_COLOR=1 npm run cy:run e2e.cy.jss'
+            }
+        }
+    }
+}
