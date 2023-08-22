@@ -9,7 +9,6 @@
             Dado que eu acesse a API de cupons
             Quando eu usar o método GET sem informar um ID de cupom
             Então deve exibir os cupons disponíveis
-
             
             Cenário: Pesquisar cupom informando um ID
             Dado que eu acesse a API de cupons
@@ -30,3 +29,17 @@
             | Ganhe10    | 10.00 | fixed_product | Cupom de teste      |
             | Agosto15   | 20.00 | fixed_product | Desconto de R$15.00 |
             | SuperPai   | 30.00 | fixed_product | Desconto de R$50.00 |
+                        
+            Esquema do Cenário: Cadastrar cupom com nome já existente
+            Dado que eu acesse a API de cupons
+            E use o método POST 
+            E informe o <codigo> do cupom 
+            E o <valor>
+            E o tipo de <desconto>
+            E a <descricao>
+            Quando eu clicar para cadastrar
+            Então deve exibir uma mensagem informando "Já existe cupom com esse nome!"
+
+            | codigo     | valor | desconto      | descricao           |
+            | Agosto15   | 20.00 | fixed_product | Desconto de R$15.00 |
+           

@@ -10,13 +10,13 @@
             E eu adiciono 10 itens do mesmo produto ao carrinho
             Quando eu clicar para adicionar mais 1 item no mesmo produto
             Então a ação não será permitida
-            E será exibida uma mensagem de erro
+            E será exibida uma mensagem de erro informando "Permitido somente 10 itens com códigos iguais"
 
-            Cenário: Negar compra pela quantidade
+            Cenário: Negar compra pel valor
             Quando eu informar a quantidade do produto "11"
-            E o valor total for "R$ 900,00"
+            E o valor total for "R$ 990,01"
             E clicar no botão "Concluir compra"
-            Então deve exibir mensagem "Não é permitida a compra da quantidade informada! A quantidade máxima permitida é 10 itens."
+            Então deve exibir mensagem "Não é permitida a compra neste valor! O valor máximo é de R$ 990,00."
 
 
             Esquema do Cenário: Receber cupom
@@ -26,11 +26,10 @@
             Então devo ganhar <desconto> % de desconto
 
             | valor | desconto |
-            | 10    | 0        |
-            | 100   | 5        |
-            | 199   | 10       |
-            | 299   | 15       |
-            | 399   | 30       |
-            | 500   | 50       |
+            | 100   | 0        |
+            | 199   | 0        |
+            | 299   | 10       |
+            | 599   | 10       |
+            | 601   | 15       |
       
 
